@@ -21,7 +21,7 @@ app.use(express.urlencoded({ extended: true, limit: "25mb" }));
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://baatekaro-app.vercel.app/",
+    origin: "https://baatekaro-app.vercel.app",
     credentials: true,
   })
 );
